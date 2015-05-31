@@ -1,0 +1,50 @@
+{
+  "name": "Vopn-iOS-Ads-SDK",
+  "version": "4.2.12",
+  "summary": "Monetize your mobile applications with Vpon ads",
+  "description": "The Vpon Mobile Ads SDK",
+  "homepage": "http://www.vpon.com",
+  "license": {
+    "type": "Copyright",
+    "text": "Copyright 2013 Vpon Incorporated., Inc. All rights reserved.\n"
+  },
+  "authors": "Vpon Incorporated.",
+  "source": {
+    "http": "http://m.vpon.com/sdk/VponSDK-iOS/Lib64bit/64bit_vpadn_4212_libAdOn_692fe4f.a",
+    "flatten": true
+  },
+  "platforms": {
+    "ios": null
+  },
+  "preserve_paths": "64bit_vpadn_4212_libAdOn_692fe4f.a",
+  "libraries": "AdOn",
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC",
+    "LIBRARY_SEARCH_PATHS": "\"$(PODS_ROOT)/Vopn-iOS-Ads-SDK/\""
+  },
+  "frameworks": [
+    "AddressBook",
+    "AddressBookUI",
+    "AdSupport",
+    "AssetsLibrary",
+    "AudioToolbox",
+    "AVFoundation",
+    "CoreFoundation",
+    "CoreGraphics",
+    "CoreLocation",
+    "CoreMedia",
+    "CoreMotion",
+    "CoreTelephony",
+    "EventKit",
+    "Foundation",
+    "MediaPlayer",
+    "MessageUI",
+    "MobileCoreServices",
+    "QuartzCore",
+    "Security",
+    "StoreKit",
+    "SystemConfiguration",
+    "UIKit"
+  ],
+  "requires_arc": false
+}
